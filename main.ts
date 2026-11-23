@@ -6,7 +6,7 @@ import { join } from "node:path";
 // sandbox with no network and graded twice, so the joke is a fixed
 // string: the output is identical on every run by construction.
 const JOKE =
-  "The demo crashed, so my agent wrote a postmortem blaming a race condition — in a single-threaded script.";
+  "The demo crashed. My agent's postmortem blamed a race condition — in a single-threaded script.";
 
 // The sealed scorer only ranks entries whose /output/entry.txt holds
 // 1-280 Unicode code points and is not only whitespace. Check the gate
